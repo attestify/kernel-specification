@@ -1,0 +1,14 @@
+@startuml
+
+!include registered-name.puml
+
+class Host {
++ Value()
++ HostType()
+.. Constructors ..
+(RegisteredName)
+}
+
+Host *-- RegisteredName
+
+@enduml

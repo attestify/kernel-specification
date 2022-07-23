@@ -1,5 +1,8 @@
 @startuml
 
+!include domain-name.puml
+!include top-level-domain.puml
+
 class RegisteredName {
 + Value() string
 + Equals() boolean
@@ -7,5 +10,8 @@ class RegisteredName {
 + (tld string, domainName string)
 + (registeredName string)
 }
+
+RegisteredName *-- DomainName
+RegisteredName *-- TopLevelDomain
 
 @enduml

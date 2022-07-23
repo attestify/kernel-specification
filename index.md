@@ -1,14 +1,10 @@
 # Attestify - Kernel Specification
 
-The kernel specification defines the interfaces and expected behaviors for the primitive components for Attestify.  
-This specification is independent of any specific language implementation.  It describes how the kernel objects must 
-operate regardless of the implementing programming language.
+The kernel specification defines the interfaces and expected behaviors for the primitive components for Attestify. This specification is independent of any specific language implementation. It describes how the kernel objects must operate regardless of the implementing programming language.
 
-The Attestify kernel is inspired by the concept of a shared kernel from [Domain Driven Design](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215).  
-The shared kernel are overlapping contexts that two-or-more domains rely upon.  
+The Attestify kernel is inspired by the concept of a shared kernel from [Domain Driven Design](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215). The shared kernel are overlapping contexts that two-or-more domains rely upon.  
 
-We've shortened the name to just ***kernel***.  Following the same concept as the shared kernel, these are objects and interfaces that are 
-shared amongst multiple context.  These objects represent the primitives so the Attestify domain.
+We've shortened the name to just ***kernel***. Following the same concept as the shared kernel, these are objects and interfaces that are shared amongst multiple context.  These objects represent the primitives so the Attestify domain.
 
 ## Kernel Concepts
 
@@ -17,14 +13,12 @@ shared amongst multiple context.  These objects represent the primitives so the 
 
 ### Value Objects
 
-Also based upon the concept of a [value object](https://learning.oreilly.com/library/view/domain-driven-design-tackling/0321125215/ch05.html) from
-[Domain Driven Design](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215).
+Also based upon the concept of a [value object](https://learning.oreilly.com/library/view/domain-driven-design-tackling/0321125215/ch05.html) from [Domain Driven Design](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215).
 
 Chapter 5 of the book has some great excerpts.  Here are our favorite:
 
 * "Many objects have no conceptual identity. These objects describe some characteristic of a thing."
-* "An object that represents a descriptive aspect of the domain with no conceptual identity is called a VALUE OBJECT. 
-  VALUE OBJECTS are instantiated to represent elements of the design that we care about only for what they are, not who or which they are."
+* "An object that represents a descriptive aspect of the domain with no conceptual identity is called a VALUE OBJECT. VALUE OBJECTS are instantiated to represent elements of the design that we care about only for what they are, not who or which they are."
 
 Additional attributes of the Attestify kernel value objects are:
 
@@ -40,9 +34,7 @@ Additional attributes of the Attestify kernel value objects are:
 
 **Namespace** - io.attestify.kernel.uri
 
-The URI (Uniform Resource Identifier) kernel package contains the objects which align 
-to the [RFC3986 - Uniform Resource Identifier: General Syntax](https://datatracker.ietf.org/doc/html/rfc3986)
-specification.
+The URI (Uniform Resource Identifier) kernel package contains the objects which align to the [RFC3986 - Uniform Resource Identifier: General Syntax](https://datatracker.ietf.org/doc/html/rfc3986) specification.
 
 #### Host
 
@@ -56,7 +48,7 @@ Limitations
 
 Interface
 * Value() - Returns a string representation of the host
-* HostType() - Returns a string represenataion for the type of host
+* HostType() - Returns a string representation for the type of host
   * Host types
     * ***reg-name*** - registered Name
     * ***ip*** - IP-literal

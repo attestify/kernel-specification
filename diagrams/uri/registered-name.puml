@@ -1,7 +1,7 @@
 @startuml
 
-!include domain-name.puml
-!include top-level-domain.puml
+!include ./domain-name.puml
+!include ./top-level-domain.puml
 
 class RegisteredName {
 + Value() string

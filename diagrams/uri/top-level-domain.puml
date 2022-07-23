@@ -4,7 +4,7 @@ class TopLevelDomain {
 + Value() string
 + Equals() boolean
 -- Constructors --
-+ New(value string) TopLevelDomain
++ (value string)
 }
 
 @enduml

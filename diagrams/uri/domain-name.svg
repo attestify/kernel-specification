@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="130px" preserveAspectRatio="none" style="width:163px;height:130px;background:#FFFFFF;" version="1.1" viewBox="0 0 163 130" width="163px" zoomAndPan="magnify"><defs/><g><!--MD5=[2069a8e3e9f8128158e554ebbe0d1b9d]
+class DomainName--><g id="elem_DomainName"><rect codeLine="2" fill="#F1F1F1" height="109.1875" id="DomainName" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="7" y="7"/><ellipse cx="29.65" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M32.6188,28.6406 Q32.0406,28.9375 31.4,29.0781 Q30.7594,29.2344 30.0563,29.2344 Q27.5563,29.2344 26.2281,27.5938 Q24.9156,25.9375 24.9156,22.8125 Q24.9156,19.6875 26.2281,18.0313 Q27.5563,16.375 30.0563,16.375 Q30.7594,16.375 31.4,16.5313 Q32.0563,16.6875 32.6188,16.9844 L32.6188,19.7031 Q31.9938,19.125 31.4,18.8594 Q30.8063,18.5781 30.1813,18.5781 Q28.8375,18.5781 28.15,19.6563 Q27.4625,20.7188 27.4625,22.8125 Q27.4625,24.9063 28.15,25.9844 Q28.8375,27.0469 30.1813,27.0469 Q30.8063,27.0469 31.4,26.7813 Q31.9938,26.5 32.6188,25.9219 L32.6188,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="45.35" y="27.8467">DomainName</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="148" y1="39" y2="39"/><ellipse cx="18" cy="50" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="27" y="55.9951">Value() string</text><ellipse cx="18" cy="66.2969" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="27" y="72.292">Equals() boolean</text><ellipse cx="18" cy="102.8906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="27" y="108.8857">(value string)</text><line style="stroke:#181818;stroke-width:1.0;" x1="8" x2="33" y1="87.7422" y2="87.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="33" y="92.0889">Constructors</text><line style="stroke:#181818;stroke-width:1.0;" x1="123" x2="148" y1="87.7422" y2="87.7422"/></g><!--MD5=[240f72bef1789aff08098ba20540b30e]
+@startuml
+
+class DomainName {
++ Value() string
++ Equals() boolean
+- - Constructors - -
++ (value string)
+}
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

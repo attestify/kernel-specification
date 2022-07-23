@@ -4,7 +4,7 @@ class DomainName {
 + Value() string
 + Equals() boolean
 -- Constructors --
-+ New(value string) DomainName
++ (value string)
 }
 
 @enduml

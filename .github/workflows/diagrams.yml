@@ -4,6 +4,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'diagrams/**'
+      - '.github/workflows/diagrams.yml'
 jobs:
   generate_plantuml:
     runs-on: ubuntu-latest
@@ -11,6 +12,7 @@ jobs:
     steps:
       - name: Install Dependencies
         run: |
+          sudo apt-get install -y plantuml
           sudo apt-get install graphviz
       - name: Checkout Repository
         uses: actions/checkout@v2

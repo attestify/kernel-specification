@@ -1,6 +1,6 @@
 @startuml
 
-!include :registered-name.puml
+!include registered-name.puml
 
 class Host {
 + Value() string

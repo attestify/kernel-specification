@@ -1,0 +1,12 @@
+@startuml
+
+title "URI - Top Level Domain"
+
+class TopLevelDomain {
++ Value() string
++ Equals() boolean
+-- Constructors --
++ New(value string) TopLevelDomain
+}
+
+@enduml

@@ -12,6 +12,18 @@ TODO - Explain how kernel, use case, and infrastructure work.
 
 ### URI
 
+#### Host
+
+![Host Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/host.svg)
+
+#### Registered Name
+
+![Registered Name Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/registered-name.svg)
+
+#### Domain Name
+
+![Domain Name Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/domain-name.svg)
+
 #### Top Level Domain
 
-![Top Level Domain Image](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/top-level-domain.svg)
+![Top Level Domain Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/top-level-domain.svg)

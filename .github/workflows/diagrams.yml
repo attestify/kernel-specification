@@ -5,6 +5,7 @@ on:
     paths:
       - 'diagrams/**'
       - '.github/workflows/diagrams.yml'
+
 jobs:
   generate_plantuml:
     runs-on: ubuntu-latest

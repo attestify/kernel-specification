@@ -1,0 +1,11 @@
+@startuml
+
+class RegisteredName {
++ Value() string
++ Equals() boolean
+-- Constructors --
++ (tld string, domainName string)
++ (registeredName string)
+}
+
+@enduml

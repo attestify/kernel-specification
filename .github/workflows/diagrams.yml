@@ -12,12 +12,15 @@ jobs:
     steps:
       - name: Install Dependencies
         run: |
-          sudo apt-get install -y plantuml
-          sudo apt-get install graphviz
+          sudo mkdir -p /opt/plantuml
+          cd /opt/plantuml
+          UML=https://github.com/plantuml/plantuml/releases/download/v1.2022.6/plantuml-1.2022.6.jar
+          sudo curl -JLO ${UML}
+          cat <<EOF | sudo tee /usr/local/bin/plantuml
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: Process Diagrams
-        run: java -jar plantuml.jar -v -tsvg -r -o "${{ github.workspace }}/diagrams/generated" "diagrams/**/**.puml"
+        run: java -jar /opt/plantuml/plantuml-1.2022.6.jar -v -tsvg -r -o "." "diagrams/**.puml"
       - name: Display Diagrams
         run: pwd && ls output
       - name: Commit Diagrams

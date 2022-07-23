@@ -1,7 +1,5 @@
 @startuml
 
-title "URI - Top Level Domain"
-
 class TopLevelDomain {
 + Value() string
 + Equals() boolean

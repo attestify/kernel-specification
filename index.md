@@ -40,17 +40,13 @@ All value objects have an Equals(...) behavior which compares the values for one
 
 ## Kernel Elements
 
-### URI
-
-**Namespace** - io.attestify.kernel.uri
+### URI (io.attestify.kernel.uri)
 
 The URI (Uniform Resource Identifier) kernel package contains the objects which align to the [RFC3986 - Uniform Resource Identifier: General Syntax](https://datatracker.ietf.org/doc/html/rfc3986) specification.
 
 ---
 
-#### Host
-
-**Namespace** - io.attestify.kernel.uri.host
+#### Host (io.attestify.kernel.uri.host)
 
 Host is the URI host as defined in [RFC3986 Section 3.2.2 - Host](https://datatracker.ietf.org/doc/html/rfc3986#section-3.2.2)
 
@@ -73,9 +69,7 @@ Constructors
 
 ---
 
-#### Registered Name
-
-**Namespace** - io.attestify.kernel.uri.registered-name
+#### Registered Name (io.attestify.kernel.uri.registered-name)
 
 An implementation of Registered Name by [RFC1034 Section 3.5](https://datatracker.ietf.org/doc/html/rfc1034#section-3.5) and [RFC1123 Section 2.1](https://datatracker.ietf.org/doc/html/rfc1123#section-2.1).
 
@@ -90,9 +84,7 @@ Constructors
 
 ---
 
-#### Domain Name
-
-**Namespace** - io.attestify.kernel.uri.domain-name
+#### Domain Name (io.attestify.kernel.uri.domain-name)
 
 An implementation of a Domain Name as defined in [RFC1034 Domain Names - Concepts and Facilities](https://datatracker.ietf.org/doc/html/rfc1034)
 
@@ -106,9 +98,7 @@ Constructors
 
 ---
 
-#### Top Level Domain
-
-**Namespace** - io.attestify.kernel.uri.top-level-domain
+#### Top Level Domain (io.attestify.kernel.uri.top-level-domain)
 
 An implmentation of a Top Level Domain as defined in [RFC920 Domain Requirements](https://datatracker.ietf.org/doc/html/rfc920)
 

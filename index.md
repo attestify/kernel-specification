@@ -84,10 +84,26 @@ Constructors
 
 **Namespace** - io.attestify.kernel.uri.domain-name
 
+An implementation of a Domain Name as defined in [RFC1034 Domain Names - Concepts and Facilities](https://datatracker.ietf.org/doc/html/rfc1034)
+
+Interface
+* Value() - Returns a string representation of the domain name.
+
+Constructors
+* (String domainName) - Constructs object from a string representation of domain name.
+
 ![Domain Name Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/domain-name.svg)
 
 #### Top Level Domain
 
 **Namespace** - io.attestify.kernel.uri.top-level-domain
+
+An implmentation of a Top Level Domain as defined in [RFC920 Domain Requirements](https://datatracker.ietf.org/doc/html/rfc920)
+
+Interface
+* Value() - Returns a string representation of the top level domain.
+
+Constructors
+* (String topLevelDomain) - Constructs object from a string representation of top level domain.
 
 ![Top Level Domain Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/top-level-domain.svg)

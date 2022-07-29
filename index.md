@@ -6,6 +6,8 @@ The Attestify kernel is inspired by the concept of a shared kernel from [Domain 
 
 We've shortened the name to just ***kernel***. Following the same concept as the shared kernel, these are objects and interfaces that are shared amongst multiple context.  These objects represent the primitives so the Attestify domain.
 
+---
+
 ## Kernel Concepts
 
 * Value Objects
@@ -34,6 +36,8 @@ All value objects have an Equals(...) behavior which compares the values for one
 
 ### Entity - *TODO*
 
+---
+
 ## Kernel Elements
 
 ### URI
@@ -41,6 +45,8 @@ All value objects have an Equals(...) behavior which compares the values for one
 **Namespace** - io.attestify.kernel.uri
 
 The URI (Uniform Resource Identifier) kernel package contains the objects which align to the [RFC3986 - Uniform Resource Identifier: General Syntax](https://datatracker.ietf.org/doc/html/rfc3986) specification.
+
+---
 
 #### Host
 
@@ -65,6 +71,8 @@ Constructors
 
 ![Host Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/host.svg)
 
+---
+
 #### Registered Name
 
 **Namespace** - io.attestify.kernel.uri.registered-name
@@ -80,6 +88,8 @@ Constructors
 
 ![Registered Name Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/registered-name.svg)
 
+---
+
 #### Domain Name
 
 **Namespace** - io.attestify.kernel.uri.domain-name
@@ -93,6 +103,8 @@ Constructors
 * (String domainName) - Constructs object from a string representation of domain name.
 
 ![Domain Name Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/domain-name.svg)
+
+---
 
 #### Top Level Domain
 

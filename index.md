@@ -61,7 +61,7 @@ Interface
     * ***ipv4*** - IPv4Address
     
 Constructors
-* (RegisteredName) - Constructs and object from a RegisteredName object from the URI kernel package.
+* (RegisteredName registeredName) - Constructs and object from a RegisteredName object from the URI kernel package.
 
 ![Host Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/host.svg)
 

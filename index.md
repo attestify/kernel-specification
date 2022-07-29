@@ -26,6 +26,12 @@ Additional attributes of the Attestify kernel value objects are:
 * All methods return a copy of an object
 * Every object must have an Equals(...) method which returns a bool
 
+#### Standard Behaviors
+
+##### Equals(...)
+
+All value objects have an Equals(...) behavior which compares the values for one instance of a given value obeject to another instance of the same type value object. 
+
 ### Entity - *TODO*
 
 ## Kernel Elements
@@ -62,6 +68,15 @@ Constructors
 #### Registered Name
 
 **Namespace** - io.attestify.kernel.uri.registered-name
+
+An implementation of Registered Name by [RFC1034 Section 3.5](https://datatracker.ietf.org/doc/html/rfc1034#section-3.5) and [RFC1123 Section 2.1](https://datatracker.ietf.org/doc/html/rfc1123#section-2.1).
+
+Interface
+* Value() - Returns a string representation of the registered name.
+
+Constructors
+* (String topLevelDomain, String domainName) - Constructs object from a string representation of a top level domain and a domain name.
+* (String registeredName) - Constructs and object from a string representation of a registered name
 
 ![Registered Name Class Diagram](https://raw.githubusercontent.com/attestify/kernel-specification/main/diagrams/uri/registered-name.svg)
 

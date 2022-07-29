@@ -69,7 +69,7 @@ Constructors
 
 ---
 
-#### Registered Name (io.attestify.kernel.uri.registered-name)
+#### Registered Name (io.attestify.kernel.uri.registered_name)
 
 An implementation of Registered Name by [RFC1034 Section 3.5](https://datatracker.ietf.org/doc/html/rfc1034#section-3.5) and [RFC1123 Section 2.1](https://datatracker.ietf.org/doc/html/rfc1123#section-2.1).
 
@@ -84,7 +84,7 @@ Constructors
 
 ---
 
-#### Domain Name (io.attestify.kernel.uri.domain-name)
+#### Domain Name (io.attestify.kernel.uri.domain_name)
 
 An implementation of a Domain Name as defined in [RFC1034 Domain Names - Concepts and Facilities](https://datatracker.ietf.org/doc/html/rfc1034)
 
@@ -98,7 +98,7 @@ Constructors
 
 ---
 
-#### Top Level Domain (io.attestify.kernel.uri.top-level-domain)
+#### Top Level Domain (io.attestify.kernel.uri.top_level_domain)
 
 An implmentation of a Top Level Domain as defined in [RFC920 Domain Requirements](https://datatracker.ietf.org/doc/html/rfc920)
 

@@ -4,11 +4,11 @@
 !include top-level-domain.puml
 
 class RegisteredName {
-+ Value() string
-+ Equals() boolean
++ Value() String
++ Equals(RegisteredName registeredName) Boolean
 -- Constructors --
-+ (tld string, domainName string)
-+ (registeredName string)
++ (String topLevelDomain, String domainName)
++ (String registeredName)
 }
 
 RegisteredName *-- DomainName

@@ -3,10 +3,10 @@
 !include registered-name.puml
 
 class Host {
-+ Value() string
-+ HostType() string
++ Value() String
++ HostType() String
 .. Constructors ..
-(RegisteredName)
+(RegisteredName registeredName)
 }
 
 Host *-- RegisteredName

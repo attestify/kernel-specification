@@ -1,10 +1,10 @@
 @startuml
 
 class DomainName {
-+ Value() string
-+ Equals() boolean
++ Value() String
++ Equals() Boolean
 -- Constructors --
-+ (value string)
++ (String value)
 }
 
 @enduml

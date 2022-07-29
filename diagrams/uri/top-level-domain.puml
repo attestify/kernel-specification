@@ -1,10 +1,10 @@
 @startuml
 
 class TopLevelDomain {
-+ Value() string
-+ Equals() boolean
++ Value() String
++ Equals(TopLevelDomain topLevelDomain) Boolean
 -- Constructors --
-+ (value string)
++ (String value)
 }
 
 @enduml
